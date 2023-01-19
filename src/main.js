@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger);
 // import initRandomPx from './features/randomPixel'
 // import initSmoothScroll from './features/smootScroll'
 import initDropdown from "./features/dropdown";
-
+import initTooltip from "./features/tooltip";
 import "./styles/style.css";
 
 // function initMarquee() {
@@ -56,3 +56,4 @@ import "./styles/style.css";
 // initFooter()
 
 initDropdown();
+initTooltip();

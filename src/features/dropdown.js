@@ -5,8 +5,8 @@ function initDropdown() {
     return;
   }
   $(".dropdown__header").on("click", function () {
-    $(this).children(".dropdown__icon").toggleClass("cc-active");
-    $(".dropdown__icon").not($(this).children(".dropdown__icon")).removeClass("cc-active");
+    $(this).children(".dropdown__icon").toggleClass("is--active");
+    $(".dropdown__icon").not($(this).children(".dropdown__icon")).removeClass("is--active");
     $(this).next().slideToggle(300);
     $(".dropdown__body").not($(this).next()).slideUp("fast");
   });
