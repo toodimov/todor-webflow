@@ -1,18 +1,21 @@
-import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
-import $ from "jquery";
+// import gsap from "gsap";
+// import ScrollTrigger from "gsap/ScrollTrigger";
+// import $ from "jquery";
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 // import initCursor from './features/cursor'
 // import initFooter from './features/footer'
 // import initFooterMarquee from './features/footerMarque'
-// import initImageParallax from './features/imageParallax'
 // import initStickyNavigation from './features/navigation'
 // import initRandomPx from './features/randomPixel'
-// import initSmoothScroll from './features/smootScroll'
+import initSmoothScroll from "./features/smootScroll";
+
+import initImageParallax from "./features/imageParallax";
 import initDropdown from "./features/dropdown";
 import initTooltip from "./features/tooltip";
+import initShare from "./features/share";
+
 import "./styles/style.css";
 
 // function initMarquee() {
@@ -47,13 +50,14 @@ import "./styles/style.css";
 // }
 
 // // Init Scripts
-// initSmoothScroll()
+initSmoothScroll();
 // initCursor()
 // initStickyNavigation()
-// initImageParallax()
+initImageParallax();
 // initMarquee()
 // initRandomPx()
 // initFooter()
 
 initDropdown();
 initTooltip();
+initShare();

@@ -46,6 +46,22 @@
 }
 /* ========== TEXT LINK END ========== */
 
+/* ========== PARALLAX ========== */
+
+.with-parallax {
+  overflow: hidden;
+}
+.with-parallax img {
+  top: -10%;
+  left: -5%;
+  width: 110%;
+  height: 110%;
+  max-width: 110%;
+  will-change: transform;
+}
+
+/* ========== TEXT LINK ========== */
+
 /* ========== DROPDOWN ========== */
 
 .dropdown__header {
