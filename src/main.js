@@ -17,6 +17,8 @@ import initTooltip from "./features/tooltip";
 import initShare from "./features/share";
 
 import "./styles/style.css";
+import initVideoPlyr from "./features/video";
+import initVimeoPlayPauze from "./features/ vimeoVIdeo";
 
 // function initMarquee() {
 //   if (!$('[marquee]').length) {
@@ -61,3 +63,5 @@ initImageParallax();
 initDropdown();
 initTooltip();
 initShare();
+initVideoPlyr();
+initVimeoPlayPauze();
